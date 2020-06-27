@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>鲁东大学在线考试系统</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<!-- <link href="css/font-awesome.min.css" rel="stylesheet"> -->
+	<link rel="stylesheet" type="text/css" href="css/htmleaf-demo.css">
+	<style type="text/css">
+		.demo{padding: 2em 0;}
+		.box{
+		    overflow: hidden;
+		    box-shadow: 0 0 3px rgba(0,0,0,0.3);
+		    position: relative;
+		}
+		.box:before{
+		    content: "";
+		    background: #000;
+		    box-shadow: 0 0 20px #fff;
+		    position: absolute;
+		    top: 0;
+		    left: 50%;
+		    bottom: 0;
+		    right: 50%;
+		    z-index: 1;
+		    transition: all 0.3s ease-out 0.3s;
+		}
+		.box:hover:before{
+		    left: 0;
+		    right: 0;
+		    box-shadow: 0 0 0 #fff;
+		    transition-delay: 0s;
+		}
+		.box img{
+		    width: 100%;
+		    height: auto;
+		    transition: all 0.8s ease-out 0s;
+		}
+		.box:hover img{ opacity: 0.2; }
+		.box .box-content{
+		    width: 100%;
+		    height: 100%;
+		    position: absolute;
+		    top: 0;
+		    left: 0;
+		    z-index: 2;
+		}
+		.box .title{
+		    padding: 25px;
+		    margin: 0;
+		    font-size: 24px;
+		    color: #fff;
+		    opacity: 0;
+		    transition: all 0.35s ease-out 0s;
+		}
+		.box .icon{
+		    list-style: none;
+		    padding: 0 25px;
+		    margin: 0;
+		    opacity: 0;
+		    transition: all 0.35s ease-out 0s;
+		}
+		.box .icon li{ display: inline-block; }
+		.box .icon li a{
+		    display: block;
+		    width: 35px;
+		    height: 35px;
+		    line-height: 35px;
+		    border-radius: 50%;
+		    background: transparent;
+		    text-align: center;
+		    font-size: 18px;
+		    color: #fff;
+		    margin-right: 10px;
+		    overflow: hidden;
+		    position: relative;
+		    transition: all 0.5s ease 0s;
+		}
+		.box .icon li a:after{
+		    content: "";
+		    width: 100%;
+		    height: 100%;
+		    background: #c92853;
+		    border-radius: 50%;
+		    position: absolute;
+		    top: -100%;
+		    left: 0;
+		    z-index: -1;
+		    transition: all 0.3s ease 0s;
+		}
+		.box .icon li a:hover:after{ top: 0; }
+		.box .description{
+		    padding: 25px 25px 25px 60px;
+		    margin: 0;
+		    font-size: 12px;
+		    color: #fff;
+		    letter-spacing: 1px;
+		    text-align: left;
+		    opacity: 0;
+		    position: absolute;
+		    bottom: 0;
+		    transition: all 0.35s ease-out 0s;
+		}
+		.box:hover .title,
+		.box:hover .icon,
+		.box:hover .description{
+		    opacity: 0.7;
+		    transition-delay: 0.3s;
+		}
+		@media only screen and (max-width:990px){
+		    .box{ margin-bottom: 30px; }
+		}
+	</style>
+</head>
+<body>
+	<div class="htmleaf-container">
+		<header class="htmleaf-header">
+			<h1>鲁东大学在线考试系统 <span>by xxq</span></h1>
+	<!-- 		<div class="htmleaf-links">
+				<a class="htmleaf-icon icon-htmleaf-home-outline" href="http://www.htmleaf.com/" title="jQuery之家" target="_blank"><span> jQuery之家</span></a>
+				<a class="htmleaf-icon icon-htmleaf-arrow-forward-outline" href="http://www.htmleaf.com/css3/css3donghua/201802064969.html" title="返回下载页" target="_blank"><span> 返回下载页</span></a>
+			</div> -->
+		</header>
+		<div class="demo">
+		        <div class="container">
+		            <div class="row">
+		                <div class="col-md-4 col-sm-6">
+		                    <div class="box">
+		                        <img src="img/1.jpg" alt=""/>
+		                        <div class="box-content">
+		                            <h3 class="title">学生登录</h3>
+		                            <ul class="icon">
+		                                <li><a href="./student_slogin.action" class="fa fa-link">→</a></li>
+		                                <!-- <li><a href="#" class="fa fa-search"></a></li> -->
+		                            </ul>
+		                            <p class="description">
+		                               	 学生不仅仅是受教育者或是在校学习的人。老子讲：道生一，一生二，二生三，三生万物。这个生是生、化的意思。
+		                               	 作为一个学生，应该先学而后生，不仅首先要充分的学习和领会老师的知识和智慧，还要在老师的知识和智慧的基础上有所生、化，有所提高。
+		                            </p>
+		                        </div>
+		                    </div>
+		                </div>
+
+		                <div class="col-md-4 col-sm-6">
+		                    <div class="box">
+		                        <img src="img/2.jpg" alt=""/>
+		                        <div class="box-content">
+		                            <h3 class="title">教师登录</h3>
+		                            <ul class="icon">
+		                                <li><a href="./teacher_tlogin.action" class="fa fa-link">→</a></li>
+		                                <!-- <li><a href="#" class="fa fa-search"></a></li> -->
+		                            </ul>
+		                            <p class="description">
+		                                	教师的角色不只是向学生传授某方面的课本知识，而是要根据学生的发展实际及教育目标、要求，在特定的环境中采用特定的教学方法，通过特定的途径来促进学生成长，教师这种角色是一种性质复杂的职业角色。
+		                                	一个人成长为这种角色需要经过复杂的、长期的学习过程。
+		                            </p>
+		                        </div>
+		                    </div>
+		                </div>
+
+		                <div class="col-md-4 col-sm-6">
+		                    <div class="box">
+		                        <img src="img/3.jpg" alt=""/>
+		                        <div class="box-content">
+		                            <h3 class="title">管理员登录</h3>
+		                            <ul class="icon">
+		                                <li><a href="./admin_alogin.action" class="fa fa-link">→</a></li>
+		                                <!-- <li><a href="#" class="fa fa-search"></a></li> -->
+		                            </ul>
+		                            <p class="description">
+		                               	 负责一定系统或者软件的维护或管理更新。 
+		                            </p>
+		                        </div>
+		                    </div>
+		                </div>
+		            </div>
+		        </div>
+		    </div>
+	</div>
+</body>
+</html>

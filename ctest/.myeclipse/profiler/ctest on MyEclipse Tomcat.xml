@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<entry key="profiler.settings.instrument.empty.methods">true</entry>
+<entry key="ProfilerCPUSettings_version">1.0</entry>
+<entry key="ProfilerCPUSettings_profile_runnables">true</entry>
+<entry key="ProfilerCPUSettings_filter_type">2</entry>
+<entry key="ProfilerMemorySettings_track_every">10</entry>
+<entry key="ProfilerMemorySettings_mode">4</entry>
+<entry key="ProfilerCPUSettings_root_classes">cn.xxn.ctest.adminuser.action.**
+cn.xxn.ctest.adminuser.dao.**
+cn.xxn.ctest.adminuser.entity.**
+cn.xxn.ctest.adminuser.service.**
+cn.xxn.ctest.answerstate.action.**
+cn.xxn.ctest.answerstate.dao.**
+cn.xxn.ctest.answerstate.entity.**
+cn.xxn.ctest.answerstate.service.**
+cn.xxn.ctest.bj.action.**
+cn.xxn.ctest.bj.dao.**
+cn.xxn.ctest.bj.entity.**
+cn.xxn.ctest.bj.service.**
+cn.xxn.ctest.qprelationq.action.**
+cn.xxn.ctest.qprelationq.dao.**
+cn.xxn.ctest.qprelationq.entity.**
+cn.xxn.ctest.qprelationq.service.**
+cn.xxn.ctest.question.action.**
+cn.xxn.ctest.question.dao.**
+cn.xxn.ctest.question.entity.**
+cn.xxn.ctest.question.service.**
+cn.xxn.ctest.questionpaper.action.**
+cn.xxn.ctest.questionpaper.dao.**
+cn.xxn.ctest.questionpaper.entity.**
+cn.xxn.ctest.questionpaper.service.**
+cn.xxn.ctest.questiontype.action.**
+cn.xxn.ctest.questiontype.dao.**
+cn.xxn.ctest.questiontype.entity.**
+cn.xxn.ctest.questiontype.service.**
+cn.xxn.ctest.student.action.**
+cn.xxn.ctest.student.dao.**
+cn.xxn.ctest.student.entity.**
+cn.xxn.ctest.student.service.**
+cn.xxn.ctest.teacheruser.action.**
+cn.xxn.ctest.teacheruser.dao.**
+cn.xxn.ctest.teacheruser.entity.**
+cn.xxn.ctest.teacheruser.service.**
+cn.xxn.ctest.testcontrol.action.**
+cn.xxn.ctest.testcontrol.dao.**
+cn.xxn.ctest.testcontrol.entity.**
+cn.xxn.ctest.testcontrol.service.**
+cn.xxn.ctest.testnote.action.**
+cn.xxn.ctest.testnote.dao.**
+cn.xxn.ctest.testnote.entity.**
+cn.xxn.ctest.testnote.service.**
+cn.xxn.ctest.utils.**
+</entry>
+<entry key="ProfilerCPUSettings_filter_value">cn.xxn.ctest.adminuser.action.*,
+cn.xxn.ctest.adminuser.dao.*,
+cn.xxn.ctest.adminuser.entity.*,
+cn.xxn.ctest.adminuser.service.*,
+cn.xxn.ctest.answerstate.action.*,
+cn.xxn.ctest.answerstate.dao.*,
+cn.xxn.ctest.answerstate.entity.*,
+cn.xxn.ctest.answerstate.service.*,
+cn.xxn.ctest.bj.action.*,
+cn.xxn.ctest.bj.dao.*,
+cn.xxn.ctest.bj.entity.*,
+cn.xxn.ctest.bj.service.*,
+cn.xxn.ctest.qprelationq.action.*,
+cn.xxn.ctest.qprelationq.dao.*,
+cn.xxn.ctest.qprelationq.entity.*,
+cn.xxn.ctest.qprelationq.service.*,
+cn.xxn.ctest.question.action.*,
+cn.xxn.ctest.question.dao.*,
+cn.xxn.ctest.question.entity.*,
+cn.xxn.ctest.question.service.*,
+cn.xxn.ctest.questionpaper.action.*,
+cn.xxn.ctest.questionpaper.dao.*,
+cn.xxn.ctest.questionpaper.entity.*,
+cn.xxn.ctest.questionpaper.service.*,
+cn.xxn.ctest.questiontype.action.*,
+cn.xxn.ctest.questiontype.dao.*,
+cn.xxn.ctest.questiontype.entity.*,
+cn.xxn.ctest.questiontype.service.*,
+cn.xxn.ctest.student.action.*,
+cn.xxn.ctest.student.dao.*,
+cn.xxn.ctest.student.entity.*,
+cn.xxn.ctest.student.service.*,
+cn.xxn.ctest.teacheruser.action.*,
+cn.xxn.ctest.teacheruser.dao.*,
+cn.xxn.ctest.teacheruser.entity.*,
+cn.xxn.ctest.teacheruser.service.*,
+cn.xxn.ctest.testcontrol.action.*,
+cn.xxn.ctest.testcontrol.dao.*,
+cn.xxn.ctest.testcontrol.entity.*,
+cn.xxn.ctest.testcontrol.service.*,
+cn.xxn.ctest.testnote.action.*,
+cn.xxn.ctest.testnote.dao.*,
+cn.xxn.ctest.testnote.entity.*,
+cn.xxn.ctest.testnote.service.*,
+cn.xxn.ctest.utils.*</entry>
+<entry key="profiler.settings.istrument.getter.setter.methods">true</entry>
+<entry key="ProfilerMemorySettings_stacktraces">-1</entry>
+<entry key="myeclipse.profiling.mode">0</entry>
+</properties>
